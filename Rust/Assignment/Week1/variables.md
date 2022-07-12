@@ -11,3 +11,6 @@ Binding and mutability
     assert_eq!(x, 5);
     println!("Success!");
     }
+    
+    Success!
+    
