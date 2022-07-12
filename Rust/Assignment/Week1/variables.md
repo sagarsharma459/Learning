@@ -33,5 +33,7 @@ Binding and mutability
             Success!
           Solution : use mut keyword and fill balnk with x varible.
 
-Scope
+3 ) Scope
 A scope is the range within the program for which the item is valid.
+        
+        
