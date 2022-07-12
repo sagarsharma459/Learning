@@ -23,9 +23,15 @@ Binding and mutability
             // Fill the blanks in the code to make it compile
             
             fn main() {
-    let mut x =  1;
-    x += 2; 
+                        let mut x =  1;
+                        x += 2; 
     
-    assert_eq!(x, 3);
-    println!("Success!");
-}
+                        assert_eq!(x, 3);
+                         println!("Success!");
+                     }
+                    
+            Success!
+          Solution : use mut keyword and fill balnk with x varible.
+
+Scope
+A scope is the range within the program for which the item is valid.
