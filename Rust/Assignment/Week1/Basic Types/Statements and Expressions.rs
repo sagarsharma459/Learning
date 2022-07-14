@@ -21,6 +21,11 @@ fn main() {
     println!("z is {:?}", z);
 }
 
+Output : 
+x is 5
+y is 155
+z is ()
+
 Exercises
 
 1)
