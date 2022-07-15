@@ -245,3 +245,4 @@ fn main() {
     println!("{:?}, {:?}, {:?}", s1, s2, t); // -> "hello", "world", ("hello", "world")
 }
 
+Output : "hello", "world", ("hello", "world")
