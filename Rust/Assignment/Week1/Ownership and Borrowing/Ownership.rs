@@ -199,3 +199,49 @@ fn main() {
 
 Output : Success!
 
+8) 
+
+/* fn main() {
+   let t = (String::from("hello"), String::from("world"));
+
+   let _s = t.0;
+
+   // Modify this line only, don't use `_s`
+   println!("{:?}", t);
+} */
+
+Solutions : 
+
+fn main() {
+   let t = (String::from("hello"), String::from("world"));
+
+   let _s = t.0;
+
+   // Modify this line only, don't use `_s`
+   println!("{:?}", t.1);
+}
+
+Output : "world"
+
+9) 
+
+/* fn main() {
+   let t = (String::from("hello"), String::from("world"));
+
+    // Fill the blanks
+    let (__, __) = __;
+
+    println!("{:?}, {:?}, {:?}", s1, s2, t); // -> "hello", "world", ("hello", "world")
+} */
+
+Solutions: 
+
+fn main() {
+   let t = (String::from("hello"), String::from("world"));
+
+    // Fill the blanks
+    let (s1, s2) = t.clone();
+
+    println!("{:?}, {:?}, {:?}", s1, s2, t); // -> "hello", "world", ("hello", "world")
+}
+
